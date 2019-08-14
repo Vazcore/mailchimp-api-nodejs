@@ -26,7 +26,9 @@ class MailChimpAPI {
   }
 }
 
-export default MailChimpAPI;
+exports.MailChimpAPI = MailChimpAPI;
 
-
+exports.printMsg = function() {
+  console.log("MailChimpAPI package");
+}
 
